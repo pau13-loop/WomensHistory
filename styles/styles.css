@@ -233,7 +233,7 @@ textarea{
 
 @media screen and (min-width: 480px) and (max-width: 980px) { 
     * {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     /*HEADERS*/
