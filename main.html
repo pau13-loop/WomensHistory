@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen"></link>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <title>Main Web Page</title>
+</head>
+<body>
+
+    <header id="header">
+        <div id="headerLogo">
+            <img id="imgLogo" src="img/mano.jpg" alt="Imagen del logotipo de la página web">
+        </div>
+        <div>
+            <nav class="topnav">
+                <a class="active" href="main.html">Home</a>
+                <a href="pages/womens.html">Womens</a>
+                <a href="pages/about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Especifíca tus datos personales: </h2>
+        <form id="form">
+            <div class="seccion"><!--Nombre y Apellidos-->
+
+                <div class="hijo-seccion">
+                    <!--Nombre-->
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" name="nombre" id="nombre" class="input_box" required>
+                </div>
+
+                <div class="hijo-seccion">
+                    <!--Apellidos-->
+                        <label for="apellidos">Apellidos</label><br>
+                        <input type="text" name="apellidos" id="apellidos" class="input_box" required>
+                </div>
+            </div>
+
+            <div class="seccion"><!--Edad y Género-->
+
+                <div class="hijo-seccion">
+                    <!--Edad-->
+                        <label for="age">Edad</label><br>
+                        <input type="age" name="age" id="age" class="input_box">
+                    
+                </div>
+
+                <div class="hijo-seccion">
+                    <!--Género-->
+                    <label for="sexo">Género</label><br>
+                    <select id="sexo" name="sexo" class="input_box">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="seccion"><!--Comentario-->
+
+                <div class="hijo-seccion">
+                    <textarea id="textArea"></textarea>
+                    <div id="letrasRestantes" >35 carácteres</div>
+                </div>
+            </div>
+        </form>
+
+        <div class="center">
+            <button class="boton" onclick="validar()">Guardar</button>
+            <button class="boton" onclick="reset()">Reset</button>
+            <button class="boton" onclick="añadir()">Añadir comentario</button>
+        </div>
+
+        <section id="comment">
+            <!--Este sección se reservará para los comentarios introducidos en la web-->
+            <h4>Comentarios</h4>
+        </section>
+
+        <script src="js/logic.js"></script>
+    </main>
+    <footer>
+        <p>Pau Llinàs Amat</p>
+    </footer>
+</body>
+</html>
