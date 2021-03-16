@@ -34,6 +34,7 @@ The motivation I have found really interesting for this kata was to be able to w
 ## Reflections
 
 This has been a really interesting homework because how I said before, we had free choice to theme our web page with what we like because the main goal of this activity was experimenting and play with the responsive design. I thought it was going to be a lot harder to be honest, it has surprised me a bit how simple I've found to adjust my web page for different sizes that a device could have and be able to visualize it completely fine. The responsive design how I could observe has a lot of advantages like for example to get the public more engaged with your web page or make your web page a lot more portable. In the end I should say that my web page it turn out a lot more simple that I would like, but this is because I've been experimenting and learning about the responsive system and I have left a little aside the design of the web page, thing that now burns me a bit, but I'll like to improve it more when I'll have the chance in the future and more free time from my studies and work.
+
 ---
 
 **[⬆ back to top](#table-of-contents)**
